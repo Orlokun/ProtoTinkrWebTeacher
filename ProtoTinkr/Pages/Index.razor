@@ -1,0 +1,25 @@
+﻿@page "/"
+<h2 class="bg-light border p-2">
+    Proyecto
+</h2>
+<br />
+Nombre del proyecto: @learningProject.projectName <input type="text" @bind-value="@learningProject.projectName">
+<br />
+Horas pedagógicas: @learningProject.pedagogicalHours <input type="number" @bind-value="@learningProject.pedagogicalHours">
+<br />
+Horas cronológicas: @learningProject.chronologicalHours
+<br />
+<br/>
+Número de Evaluaciones:
+
+
+@code
+{
+    LearningProject learningProject = new()
+    {
+        projectName =  "TinkrProject",
+        pedagogicalHours = 8,
+    };
+    
+    
+}

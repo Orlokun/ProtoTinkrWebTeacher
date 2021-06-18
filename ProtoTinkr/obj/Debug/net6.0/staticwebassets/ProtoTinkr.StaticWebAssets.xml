@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\bin\Debug\net6.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\scopedcss\bundle\" />
+</StaticWebAssets>
