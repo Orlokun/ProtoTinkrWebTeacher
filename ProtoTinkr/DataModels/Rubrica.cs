@@ -12,7 +12,7 @@ namespace ProtoTinkr
         #region PublicFields
         public string _name { get; set; }
         public string id { get; set; }
-        
+        public string _learningOutcome { get; set; }
         public string CreatorId { get; }
         public int _puntajeMaximo { get; set; }
         public int _notaMaxima { get; set; }

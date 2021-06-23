@@ -7,6 +7,7 @@ namespace ProtoTinkr
     {
         public string EvaluationName { get; set; }
         public string EvaluationId { get; set; }
+        public string LearningOutcome { get; set; }
         public int finalSemestralPonderation { get; set; }
         public int finalGrade { get; set; }
 

@@ -18,15 +18,10 @@ namespace ProtoTinkrTest
             Assert.IsTrue(rubrica._exigencia.Equals(newReq));
         }
         
-        [Test]
-        public void ChangeRequirementPercentage_IsNotValidNumber_IsExeption()
+        /*[Test]
+        public void ChangeRequirementPercentage_IsNotValidNumber_GeneratesException()
         {
-            var rubricManager = new RubricManager();
-            var rubrica = new Rubrica();
-            var newReq = 0;
-            
-            rubrica._exigencia = rubricManager.ChangeRequirementPercentage(newReq);
-        }
-        
+            //TODO: Implement Test
+        }*/
     }
 }

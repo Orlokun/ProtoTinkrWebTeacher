@@ -6,19 +6,21 @@ namespace ProtoTinkr
 {
     public class LearningProject
     {
+        public bool isCollaborative { get; set; }
         public string projectName { get; set; }
         public int pedagogicalHours { get; set; }
         public float chronologicalHours => pedagogicalHours * 0.75f;
         
         public Dictionary<string,Teacher> Teachers;
-        public Dictionary<string,Students> Students;
+        public Dictionary<string,Student> Students;
         
         public List<Evaluation> _evaluationsList;
+        
 
         public LearningProject()
         {
             Teachers = new Dictionary<string, Teacher>();
-            Students = new Dictionary<string, Students>();
+            Students = new Dictionary<string, Student>();
             _evaluationsList = new List<Evaluation>();
         }
     }

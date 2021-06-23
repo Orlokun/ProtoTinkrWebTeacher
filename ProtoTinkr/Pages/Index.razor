@@ -2,24 +2,47 @@
 <h2 class="bg-light border p-2">
     Proyecto
 </h2>
+
+Nombre del Docente: @teacher.userId
 <br />
+Número de proyectos del docente: @teacher.activeProjects.Count
+<br />
+
 Nombre del proyecto: @learningProject.projectName <input type="text" @bind-value="@learningProject.projectName">
 <br />
 Horas pedagógicas: @learningProject.pedagogicalHours <input type="number" @bind-value="@learningProject.pedagogicalHours">
 <br />
 Horas cronológicas: @learningProject.chronologicalHours
 <br />
+<span> Este proyecto es: @(learningProject.isCollaborative?" Colaborativo":" Individual")</span> 
+<input type="checkbox" @bind-value="@learningProject.isCollaborative">
 <br/>
-Número de Evaluaciones:
 
+<input type="button"
+       @{
+           ActivateProject(learningProject);
+       }>
 
 @code
 {
+    void ActivateProject(LearningProject activatedProject)
+    {
+        teacher.activeProjects.Add(activatedProject);
+    }
+    
+    Teacher teacher = new()
+    {
+        userId = "orloKun",
+        mailAddress = "oguerrerofarias@gmail.com",
+        authtoken = "myAuthToken",
+        organizationName = "tinkr",
+        organizationId = "tormentaenblanco",
+    };
+
     LearningProject learningProject = new()
     {
-        projectName =  "TinkrProject",
-        pedagogicalHours = 8,
+        projectName =  "",
+        pedagogicalHours = 0,
+        isCollaborative = true,
     };
-    
-    
 }
