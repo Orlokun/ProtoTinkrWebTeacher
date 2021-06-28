@@ -7,6 +7,9 @@
 
     <div class="main">
         <div class="top-row px-4">
+            <div id = "wrap">
+            <UpperTabComponent buttons="@tabButtons"></UpperTabComponent>
+            </div>
             <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
         </div>
 
@@ -15,3 +18,9 @@
         </div>
     </div>
 </div>
+
+@code
+{
+    // ReSharper disable once ArrangeObjectCreationWhenTypeEvident
+    List<string> tabButtons = new List<string>() {"Proyectos Activos", "Borradores", "Proyectos Archivados"};
+}

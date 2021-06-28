@@ -125,3 +125,7 @@ C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr.UnitTest\obj\Debug\net6.0\
 C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr.UnitTest\obj\Debug\net6.0\ref\ProtoTinkr.UnitTest.dll
 C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr.UnitTest\obj\Debug\net6.0\ProtoTinkr.UnitTest.pdb
 C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr.UnitTest\obj\Debug\net6.0\ProtoTinkr.UnitTest.genruntimeconfig.cache
+C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr.UnitTest\bin\Debug\net6.0\Syncfusion.Blazor.dll
+C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr.UnitTest\bin\Debug\net6.0\Syncfusion.ExcelExport.Net.dll
+C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr.UnitTest\bin\Debug\net6.0\Syncfusion.Licensing.dll
+C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr.UnitTest\bin\Debug\net6.0\Syncfusion.PdfExport.Net.dll

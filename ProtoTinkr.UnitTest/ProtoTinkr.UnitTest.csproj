@@ -13,6 +13,7 @@
         <PackageReference Include="NUnit" Version="3.12.0" />
         <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
         <PackageReference Include="coverlet.collector" Version="1.3.0" />
+        <PackageReference Include="Syncfusion.Blazor" Version="19.1.0.69" />
     </ItemGroup>
 
     <ItemGroup>
