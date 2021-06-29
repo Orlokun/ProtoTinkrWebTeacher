@@ -4,7 +4,7 @@ namespace ProtoTinkr
 {
     public static class LoginManager
     {
-        public static Task Login()
+        public static async Task Login()
         {
             
         }
