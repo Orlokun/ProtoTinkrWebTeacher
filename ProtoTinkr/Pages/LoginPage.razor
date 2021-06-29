@@ -1,0 +1,19 @@
+﻿@page "/"
+@inject HttpClient _httpClient;
+<h2 class="bg-light border p-2">
+    Hola Mundo!
+</h2>
+
+
+@code
+{
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("On InitilizedAsync LoginPage");
+        PlayerProfile profile = new Teacher();
+        profile = await _httpClient.GetFromJsonAsync<Teacher>(""); //TODO: Add API Link
+        await base.OnInitializedAsync();
+    }
+
+    
+}

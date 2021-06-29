@@ -56,9 +56,9 @@ build_metadata.AdditionalFiles.TargetPath = Shared\UIProjectObject.razor
 build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\Razor\Shared\UIProjectObject.razor.g.cs
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/UpperTabComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Shared\UpperTabComponent.razor
-build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\Razor\Shared\UpperTabComponent.razor.g.cs
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/UpperTabButtonGroup.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\UpperTabButtonGroup.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\Razor\Shared\UpperTabButtonGroup.razor.g.cs
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/_Imports.razor]
