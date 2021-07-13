@@ -1315,3 +1315,4 @@ C:\Users\oguer\Documents\GitHub\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\ProtoTink
 C:\Users\oguer\Documents\GitHub\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\ProtoTinkr.dll
 C:\Users\oguer\Documents\GitHub\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\ref\ProtoTinkr.dll
 C:\Users\oguer\Documents\GitHub\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\ProtoTinkr.pdb
+C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\scopedcss\Pages\MainProjectPage.razor.rz.scp.css

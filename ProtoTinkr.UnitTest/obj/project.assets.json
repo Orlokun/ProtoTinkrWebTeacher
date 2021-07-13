@@ -5123,32 +5123,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\oguer\\.nuget\\packages\\": {}
+    "C:\\Users\\GMR User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr.UnitTest\\ProtoTinkr.UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr.UnitTest\\ProtoTinkr.UnitTest.csproj",
       "projectName": "ProtoTinkr.UnitTest",
-      "projectPath": "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr.UnitTest\\ProtoTinkr.UnitTest.csproj",
-      "packagesPath": "C:\\Users\\oguer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr.UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr.UnitTest\\ProtoTinkr.UnitTest.csproj",
+      "packagesPath": "C:\\Users\\GMR User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\oguer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\GMR User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj": {
-              "projectPath": "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj"
+            "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj": {
+              "projectPath": "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj"
             }
           }
         }
@@ -5199,7 +5201,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
       }
     }
   }

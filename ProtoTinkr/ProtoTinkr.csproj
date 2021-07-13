@@ -11,11 +11,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="EvaluationData" />
+      <_ContentIncludedByDefault Remove="Pages\BlazorBasicsPage\BlazorBasics.razor" />
     </ItemGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="Pages\BlazorBasicsPage\BlazorBasics.razor" />
+      <None Update="Pages\LoginPage.razor.css">
+        <DependentUpon>LoginPage.razor.razor</DependentUpon>
+      </None>
     </ItemGroup>
 
 </Project>

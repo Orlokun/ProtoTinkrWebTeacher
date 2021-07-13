@@ -12,8 +12,6 @@ namespace ProtoTinkr
 {
     public class Program
     {
-        public static PlayerProfile _profile { get; set; }
-        public DateTime LoginTime { get; set; }
         public static async Task Main(string[] args)
         {
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDYzNzczQDMxMzkyZTMxMmUzMGw4VDBTVDRKRTdyVzFiUW9LNllCVWZoL2x0ckxqMjJISUZHa2g5TFgxZU09;NDYzNzc0QDMxMzkyZTMxMmUzMEhGdVI3dlhyc1V4dkdIL0pjZ2FvZjNBaVFHV0hBUVZEbG4zRGRlNFBFZ1k9;NDYzNzc1QDMxMzkyZTMxMmUzMGFTWWN4N1BnM1lRZkFSdHZFY0xvRXprZWpnaFJaQXIzVUZFL25ZeFRZT009;NDYzNzc2QDMxMzkyZTMxMmUzMEZVYkl3N3hKRXB5L0llTVdhaVVxUDQvbjBhVXRlR2pGczZGcTJwU0tNWEE9");
@@ -21,6 +19,7 @@ namespace ProtoTinkr
             builder.RootComponents.Add<App>("#app");
             builder.Services.AddSyncfusionBlazor();
             builder.Services.AddSingleton<HttpClient>();
+            builder.Services.AddSingleton<PlayerManager>();
             builder.Services.AddScoped(
                 sp => new HttpClient {BaseAddress = new Uri(builder.HostEnvironment.BaseAddress)});
             await builder.Build().RunAsync();

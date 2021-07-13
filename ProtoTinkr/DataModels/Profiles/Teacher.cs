@@ -10,7 +10,6 @@ namespace ProtoTinkr
 
         public Teacher()
         {
-            activeProjects = new List<LearningProject>();
             draftProjects = new List<LearningProject>();
             _programmedProjects = new List<LearningProject>();
             _archivedProjects = new List<LearningProject>();

@@ -1,0 +1,25 @@
+﻿@using Syncfusion.Blazor.Buttons
+@using System.Text.Json
+@inject PlayerManager _playerManager;
+
+<input type="button" class="btn btn-info" value="@userName @userLastName">
+
+
+@code {
+    [Parameter]
+    public string userName { get; set; }
+    [Parameter]
+    public string userLastName { get; set; }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("On InitializedAsync LoginPage");
+        await base.OnInitializedAsync();
+        _playerManager.UserUpdated += PlayerUpdate;
+    }
+
+    private void PlayerUpdate(object sender, EventArgs eventArgs)
+    {
+        
+    }
+}

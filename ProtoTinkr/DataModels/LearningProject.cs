@@ -1,27 +1,22 @@
 ﻿using System.Collections.Generic;
-using System.Net.Http.Headers;
-using System.Reflection.Metadata.Ecma335;
 
 namespace ProtoTinkr
 {
     public class LearningProject
     {
-        public bool isCollaborative { get; set; }
-        public string projectName { get; set; }
-        public int pedagogicalHours { get; set; }
-        public float chronologicalHours => pedagogicalHours * 0.75f;
-        
-        public Dictionary<string,Teacher> Teachers;
-        public Dictionary<string,Student> Students;
-        
-        public List<Evaluation> _evaluationsList;
-        
+        public string id { get; set; }
+        public string name { get; set; }
+        public string description { get; set; }
+        public string grade { get; set; }
+        public List<string> Teachers;
+        public List<string> Students;
+        public List<string> evaluations;
+        public string join_code { get; set; }
 
         public LearningProject()
         {
-            Teachers = new Dictionary<string, Teacher>();
-            Students = new Dictionary<string, Student>();
-            _evaluationsList = new List<Evaluation>();
+            Teachers = new List<string>();
+            Students = new List<string>();
         }
     }
 }

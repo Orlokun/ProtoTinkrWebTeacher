@@ -1,0 +1,82 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = ProtoTinkr
+build_property.RootNamespace = ProtoTinkr
+build_property.ProjectDir = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\
+build_property.RazorLangVersion = 5.0
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr
+build_property._RazorSourceGeneratorDebug = 
+build_property._RazorSourceGeneratorLog = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/App.razor]
+build_metadata.AdditionalFiles.TargetPath = App.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\App.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Pages/CalendarPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Pages\CalendarPage.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Pages\CalendarPage.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\LoginLayout.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Shared\LoginLayout.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\SurveyPrompt.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Shared\SurveyPrompt.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/UIComponents/ProjectViewPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\UIComponents\ProjectViewPanel.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Shared\UIComponents\ProjectViewPanel.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/UIProjectObject.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\UIProjectObject.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Shared\UIProjectObject.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/UpperTabButtonGroup.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\UpperTabButtonGroup.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Shared\UpperTabButtonGroup.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/UserIconLoginButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\UserIconLoginButton.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Shared\UserIconLoginButton.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = _Imports.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\_Imports.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Pages/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Pages\LoginPage.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = b-upnruzyrhi
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Pages/MainProjectPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Pages\MainProjectPage.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Pages\MainProjectPage.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = b-hehxmludha
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\MainLayout.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Shared\MainLayout.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = b-9cdj71ztn5
+
+[c:/Users/GMR User/RiderProjects/ProtoTinkr/ProtoTinkr/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Shared\NavMenu.razor
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Release\net6.0\Razor\Shared\NavMenu.razor.g.cs
+build_metadata.AdditionalFiles.CssScope = b-n3htpozfom

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj": {}
+    "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj": {
+    "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj",
+        "projectUniqueName": "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj",
         "projectName": "ProtoTinkr",
-        "projectPath": "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj",
-        "packagesPath": "C:\\Users\\oguer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oguer\\Documents\\GitHub\\ProtoTinkr\\ProtoTinkr\\obj\\",
+        "projectPath": "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr\\ProtoTinkr.csproj",
+        "packagesPath": "C:\\Users\\GMR User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GMR User\\RiderProjects\\ProtoTinkr\\ProtoTinkr\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\oguer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\GMR User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,8 +66,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.0-preview.5.21301.5, 6.0.0-preview.5.21301.5]"
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[6.0.0-preview.3.21201.4, 6.0.0-preview.3.21201.4]"
             }
           ],
           "frameworkReferences": {
@@ -73,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

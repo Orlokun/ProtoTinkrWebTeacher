@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="C:\Users\oguer\.nuget\packages\syncfusion.blazor\19.1.0.69\build\..\staticwebassets\" />
-  <ContentRoot BasePath="/" Path="C:\Users\oguer\Documents\GitHub\ProtoTinkr\ProtoTinkr\bin\Debug\net6.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\oguer\Documents\GitHub\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="C:\Users\GMR User\.nuget\packages\syncfusion.blazor\19.1.0.69\build\..\staticwebassets\" />
+  <ContentRoot BasePath="/" Path="C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\bin\Debug\net6.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\GMR User\RiderProjects\ProtoTinkr\ProtoTinkr\obj\Debug\net6.0\scopedcss\bundle\" />
 </StaticWebAssets>

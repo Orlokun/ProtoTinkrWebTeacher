@@ -1,18 +1,19 @@
 ﻿@inherits LayoutComponentBase
+@inject PlayerManager _playerManager
 
 <div class="page">
     <div class="sidebar">
         <NavMenu/>
     </div>
-
     <div class="main">
         <div class="top-row px-4">
             <div id = "wrap">
-            <UpperTabComponent buttons="@tabButtons"></UpperTabComponent>
+                <UpperTabButtonGroup buttons="@tabButtons"></UpperTabButtonGroup>
             </div>
-            <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
+            <div>
+                <UserIconLoginButton userName="@_playerManager._playerProfile.first_name" userLastName="@_playerManager._playerProfile.last_name"></UserIconLoginButton>
+            </div>
         </div>
-
         <div class="content px-4">
             @Body
         </div>
@@ -23,4 +24,15 @@
 {
     // ReSharper disable once ArrangeObjectCreationWhenTypeEvident
     List<string> tabButtons = new List<string>() {"Proyectos Activos", "Borradores", "Proyectos Archivados"};
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        _playerManager.UserUpdated += HandleCustomEvent;
+    }
+
+    void HandleCustomEvent(object sender, EventArgs a)  
+    {  
+        Console.WriteLine("Event received by MainLayout");
+    }  
 }

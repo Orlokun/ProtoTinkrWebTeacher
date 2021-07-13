@@ -1,19 +1,13 @@
 ﻿@page "/ProjectsPages"
 
-<div class="border p-2 mt-2">
+<body>
+<div class="projectContainer col-3">
     <h2>Active Projects</h2>
-    <div class="row container">
-        @foreach (var activeProject in _teacher.activeProjects)
-        {
-            <UIProjectObject LProject="@activeProject"></UIProjectObject>
-        }
-    </div>
     <br/>
-    <br/>
-    <input type="button" class="btn btn-danger" value="Borrar" @onclick="RemoveProject">
-    <input type="button" class="btn btn-success" value="Agregar" @onclick="AddProject">
-    
+    <input type="button" class="btn btn-danger" value="Borrar" @onclick="RemoveProject" style="margin-inline: auto">
+    <input type="button" class="btn btn-success" value="Agregar" @onclick="AddProject" style="margin-inline:auto">
 </div>
+</body>
 
 
 
@@ -21,29 +15,17 @@
     
     Teacher _teacher = new()
     {
-        userId = "orloKun",
-        _archivedProjects = new List<LearningProject>(),
-        _programmedProjects = new List<LearningProject>(),
-        activeProjects = new List<LearningProject>(),
-        mailAddress = "oguerrerofarias@gmail.com",
-        authtoken = "myTokenTest",
+
     };
 
     public void AddProject()
     {
-        var project = new LearningProject();
-        project.Teachers.Add(_teacher.mailAddress, _teacher);
-        project.projectName = GetRandomString();
-        project.pedagogicalHours = new Random().Next(2, 20);
 
-        _teacher.activeProjects.Add(project);
     }
     
     public void RemoveProject()
     {
-        int randomProject = new Random().Next(0, _teacher.activeProjects.Count - 1);
-        _teacher.activeProjects[randomProject].Teachers.Remove(_teacher.mailAddress);    
-        _teacher.activeProjects.Remove(_teacher.activeProjects[randomProject]);
+
     }
 
     private string GetRandomString()

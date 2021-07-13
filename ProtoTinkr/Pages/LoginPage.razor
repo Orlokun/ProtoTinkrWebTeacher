@@ -1,20 +1,67 @@
 ﻿@layout LoginLayout
 @page "/"
-@inject HttpClient _httpClient;
-<h2 class="bg-light border p-2">
-    Hola Mundo!
-</h2>
+@using System.Net.Http.Headers
+@using System.Text.Json
+@using ProtoTinkr.LoginRegisterModels
+@using Syncfusion.Blazor.Buttons
+@inject NavigationManager NavManager
+@inject HttpClient _httpClient
+@inject PlayerManager _playerManager;
+
+<body>
+<div class="loginContainer">
+    <input type="text" placeholder="Email" @bind-value="newLogin.Email" @bind-value:event="oninput">
+    <input type="text" placeholder="Contraseña" @bind-value="newLogin.Password" @bind-value:event="oninput">
+    <br >
+    <SfButton CssClass="e-success" @onclick="Login">Ingresar</SfButton>
+    <SfButton CssClass="e-success" @onclick="GetActiveUser">Agregar Usuario</SfButton>
+</div>
+</body>
 
 
 @code
 {
+    LoginModel newLogin = new();
     protected override async Task OnInitializedAsync()
     {
-        Console.WriteLine("On InitilizedAsync LoginPage");
-        PlayerProfile profile = new Teacher();
-        profile = await _httpClient.GetFromJsonAsync<Teacher>(""); //TODO: Add API Link
+        Console.WriteLine("On InitializedAsync LoginPage");
         await base.OnInitializedAsync();
+        _httpClient.BaseAddress = new Uri("https://api.tinkr.cl");
     }
 
+    private async Task Login()
+    {
+        var message = await _httpClient.PostAsJsonAsync("login", newLogin);
+        var jsonAnswer = await message.Content.ReadFromJsonAsync<JsonElement>();
+        var authReceiveUnit = FromJsonToLoginAnswerComponent(jsonAnswer);
+        if (authReceiveUnit != null)
+        {
+            SetAuthToken(authReceiveUnit);
+            await GetActiveUser();
+            NavManager.NavigateTo("/ProjectsPages");
+        }
+    }
+
+    private LoginAnswerDataModel FromJsonToLoginAnswerComponent(JsonElement jsonAnswer)
+    {
+        return new ()
+        {
+            code = jsonAnswer.GetProperty("code").GetInt32(),
+            expire = jsonAnswer.GetProperty("expire").GetString(),
+            token = jsonAnswer.GetProperty("token").GetString(),
+        };
+    }
+
+    private async Task GetActiveUser()
+    {
+        var activeUserJsonElement = await _httpClient.GetFromJsonAsync<JsonElement>("https://api.tinkr.cl/users/me");
+        _playerManager.SetActiveUserFromJsonElement(activeUserJsonElement);
+    }
     
+    private void SetAuthToken(LoginAnswerDataModel loginAnswer)
+    {
+        Console.WriteLine("Setting Auth token with: " + loginAnswer);
+        _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", loginAnswer.token);
+        Console.WriteLine("Header Set: " + _httpClient.DefaultRequestHeaders.Authorization);
+    }
 }
